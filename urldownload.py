@@ -34,7 +34,7 @@ async def download_coroutine(session, url, file_name, event, start, bot):
 
 **File Size:** {}
 
-**© @Infinity_BOTs**""".format(
+**By @Infinity_BOTs**""".format(
                 url,
                 os.path.basename(file_name).replace("%20", " "),
                 humanbytes(total_length),
