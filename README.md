@@ -7,8 +7,6 @@
 
 - [x] TransferSh Uploader
 
-- [x] TmpNinja Uploader
-
 ### Host Bot
 #### Deploy to Heroku:
 
