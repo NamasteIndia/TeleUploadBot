@@ -36,7 +36,7 @@ async def send_to_transfersh_async(file):
                 async with session.post(url, data={str(file): f}) as response:
                     download_link =  await response.text()
                     
-    print("Link to download file(will be saved till {}):\n{}".format(final_date, download_link))
+    print("Link to download file (will be saved till {}):\n{}".format(final_date, download_link))
     return download_link, final_date, size_of_file
 
 
