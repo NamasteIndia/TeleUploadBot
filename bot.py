@@ -40,7 +40,7 @@ async def send_to_transfersh_async(file):
     return download_link, final_date, size_of_file
 
 async def send_to_tmp_async(file):
-    url = 'https://tmp.ninja/api.php?d=upload-tool'
+    url = 'https://tmp.ninja/upload.php'
     
     with open(file, 'rb') as f:
             async with aiohttp.ClientSession() as session:
