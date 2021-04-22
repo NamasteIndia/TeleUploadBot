@@ -1,5 +1,5 @@
-# Infinity Bots <https://t.me/Infinity_Bots>
-# @ImJanindu
+
+
 
 from telethon import TelegramClient, events, Button
 from urldownload import download_file
