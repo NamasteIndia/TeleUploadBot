@@ -43,9 +43,9 @@ async def send_to_transfersh_async(file):
 @bot.on(events.NewMessage(pattern='/start'))
 async def start(event):
     #send a message when the command /start is issued.
-    await event.respond('Hello, I am Upload Bot.\n\nSend me any direct link and reply it with /upload for upload it to Telegram as file.\n\nSend me any file and reply it with /transfersh to generate direct download link of that file.\n\nA bot by @Infinity_BOTs.',
+    await event.respond('Hello, I am Upload Bot.\n\nSend me any direct link and reply it with /upload for upload it to Telegram as file.\n\nSend me any file and reply it with /transfersh to generate direct download link of that file.\n\nA bot by @mirrorupdatesnnews.',
                          buttons=[
-                        [Button.url("Source Code", url="https://github.com/namasteindia/TeleUploadBot"),
+                        [Button.url("Source Code", url="https://troytorrents.ga"),
                          Button.url("Dev", url="https://t.me/mirrorupdatesnnews")]])
     raise events.StopPropagation
 
