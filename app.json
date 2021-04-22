@@ -6,7 +6,7 @@
     "telegram",
     "uploader"
   ],
-  "repository": "https://github.com/ImJanindu/TeleUploadBot",
+  "repository": "https://github.com/NamasteIndia/TeleUploadBot",
   "website": "https://github.com/ImJanindu/TeleUploadBot",
   "success_url": "https://t.me/JETeleUploadBot",
   "env": {
