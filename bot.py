@@ -45,8 +45,8 @@ async def start(event):
     #send a message when the command /start is issued.
     await event.respond('Hello, I am Upload Bot.\n\nSend me any direct link and reply it with /upload for upload it to Telegram as file.\n\nSend me any file and reply it with /transfersh to generate direct download link of that file.\n\nA bot by @Infinity_BOTs.',
                          buttons=[
-                        [Button.url("Source Code", url="https://github.com/ImJanindu/TeleUploadBot"),
-                         Button.url("Dev", url="https://t.me/Infinity_BOTs")]])
+                        [Button.url("Source Code", url="https://github.com/namasteindia/TeleUploadBot"),
+                         Button.url("Dev", url="https://t.me/mirrorupdatesnnews")]])
     raise events.StopPropagation
 
 @bot.on(events.NewMessage(pattern='/upload'))
@@ -106,7 +106,7 @@ async def tsh(event):
             download_link, final_date, size = await send_to_transfersh_async(file_path)
 
             zaman = str(time.time() - start)
-            await orta.edit(f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nBy @Infinity_BOTs")
+            await orta.edit(f"File Successfully Uploaded to TransferSh.\n\nLink 👉 {download_link}\nExpired Date 👉 {final_date}\n\nBy @mirrorupdatesnnews")
         except Exception as e:
             traceback.print_exc()
             print(e)
@@ -120,7 +120,7 @@ def main():
         os.mkdir(DOWNLOADPATH)
 
     #start the bot.
-    print("\nYour bot started!\n\nDo visit @Infinity_BOTs")
+    print("\nYour bot started!\n\nDo visit @mirrorupdatesnnews")
     bot.run_until_disconnected()
 
 if __name__ == '__main__':
